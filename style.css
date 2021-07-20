@@ -6,14 +6,14 @@ body{
   font-family: 'Uchen', serif;
   background-color: #2B303B;
   color: white;
-  margin: 0;
+  margin: 0.5%;
   padding: 0;
 }
 
 .wrapper{
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap: 50px;
+  grid-template-columns: repeat(1,2fr 1fr 2fr 1fr);
+  grid-gap: 15px;
   grid-auto-columns: minmax(200px, auto);
   grid-auto-rows: minmax(200px, auto);
 
@@ -25,7 +25,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 70%;
+  opacity: 75%;
   transition: all 0.3s ease-in;
   border-radius: 2%;
   filter: blur(3px);
@@ -65,7 +65,7 @@ body{
 }
 
 .block4{
-  background-image: url("images/juice-wrld-trailer.jpg");
+  background-image: url("images/maxresdefault.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -73,7 +73,7 @@ body{
   grid-column-end: 4;
 }
 .block5{
-  background-image: url("images/maxresdefault.jpg");
+  background-image: url("images/juice-wrld-trailer.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,5 +93,103 @@ body{
   color: black;
   font-weight:  bolder;
   grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.block7{
+  background-image: url("images/0.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight:  bolder;
+  grid-row-start: 4;
   grid-row-end: 5;
+}
+
+.block8{
+  background-image: url("images/mkju1aljtlt21.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight:  bolder;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.block9{
+  background-image: url("images/149713-purpur-grafika-fioletovyj-voda-kompaniya_huawei_mediapad_na_m6-1080x1920.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight:  bolder;
+  grid-row-start: 5;
+  grid-row-end: 9;
+
+}
+
+.block10{
+  background-image: url("images/maxresdefault (1).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black;
+  font-weight:  bolder;
+  grid-column-start: 2;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+
+.block11{
+  background-image: url("images/google3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-weight:  bolder;
+  color: black;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-end: 6;
+}
+
+.block12{
+  background-image: url("images/1618052853_11-p-oboi-smeshnie-mopsi-11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-weight:  bolder;
+}
+
+.block13{
+  background-image: url("images/serdtse_neon_podsvetka_119982_938x1668.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-column-start: 4;
+  grid-row-start: 6;
+  grid-row-end: 10;
+}
+
+.block14{
+  background-image: url("images/1-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+
+.block15{
+  background-image: url("images/171156_qNsv8gl7yz_passengers.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-row-start: 9;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-end: 11;
 }
